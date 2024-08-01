@@ -3,6 +3,34 @@
 The TimeSeriesTools repository provides a comprehensive collection of Python frameworks and libraries for analyzing and processing time series data. Whether you're working with financial data, sensor readings, or any other type of time-stamped data, this repository offers a wide range of tools to help you extract insights and gain valuable insights.
 
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Content](#content)
+  - [Python Frameworks for Time Series Analysis](#python-frameworks-for-time-series-analysis)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Time series analysis is a critical aspect of data science and analytics, enabling businesses and researchers to uncover patterns and trends over time. This repository aims to consolidate the best Python libraries for time series analysis, making it easier for developers and analysts to find the tools they need.
+
+## Installation
+
+To use these libraries, you need Python installed on your system. You can set up a virtual environment and install the libraries using `pip` or `conda`. Here's a quick start guide:
+
+```bash
+# Create and activate a virtual environment
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+# Install the libraries (example for a couple of them)
+pip install pandas statsmodels prophet tsfresh sktime darts pyflux gluonts pycaret tensorflow aeon pyts tsfeatures
+```
+
+
 # Content
 
 ## Python Frameworks for Time Series Analysis
@@ -35,5 +63,10 @@ The TimeSeriesTools repository provides a comprehensive collection of Python fra
 13. [tsfeatures](https://github.com/Nixtla/tsfeatures): Python implementation of the R package for time series feature extraction. It calculates a wide range of features from time series data, including autocorrelations, spectral entropy, seasonality, and trend measures. Users can also define their custom feature extraction functions. [tsfeatures docs](https://pkg.robjhyndman.com/tsfeatures/)
 
 
+## Contributing
 
+Contributions are welcome! If you have any additional libraries to add, or if you find a bug or have an idea for improvement, please feel free to open an issue or submit a pull request. Follow the [contribution guidelines](CONTRIBUTING.md) for more details.
 
+## License
+
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
