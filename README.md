@@ -1,6 +1,10 @@
 # Time SeriesTools: A Collection of Python Frameworks for Time Series Analysis
 
-The TimeSeriesTools repository provides a comprehensive collection of Python frameworks and libraries for analyzing and processing time series data. Whether you're working with financial data, sensor readings, or any other type of time-stamped data, this repository offers a wide range of tools to help you extract insights and gain valuable insights.
+The Time-Series-Tools repository provides a comprehensive collection of Python, Julia, R, Java, Rust and Cplusplus frameworks and libraries for analyzing and processing time series data. 
+
+The objective of this repository is to help researchers, data scientists, data analysts, students of hobyists who are working with time series data such as financial data, sensor readings, or any other type of time-stamped data, to find and access the appropriate library for framework in different programming languages. 
+
+The reason for selecting this set of programming languages is the familiary of the author and mantainer of this repo, however, other programming languages might be added in the future.
 
 
 ## Table of Contents
@@ -62,6 +66,29 @@ pip install pandas statsmodels prophet tsfresh sktime darts pyflux gluonts pycar
 
 13. [tsfeatures](https://github.com/Nixtla/tsfeatures): Python implementation of the R package for time series feature extraction. It calculates a wide range of features from time series data, including autocorrelations, spectral entropy, seasonality, and trend measures. Users can also define their custom feature extraction functions. [tsfeatures docs](https://pkg.robjhyndman.com/tsfeatures/)
 
+
+## Julia Packages for Time Series Analysis
+
+1. [TimeSeries.jl](https://github.com/JuliaStats/TimeSeries.jl) This library provides a framework for working with time series data in Julia. It includes convenient methods for manipulating and analyzing time series data using the `TimeArray` data structure, which is similar to pandas Series. [TimeSeries.jl docs](https://juliastats.org/TimeSeries.jl/latest/)
+
+2. [TSAnalysis.jl](https://github.com/fipelle/TSAnalysis.jl): It offers tools for basic time series analysis in Julia. It is compatible with incomplete data and includes state-space modeling capabilities. The package provides functions for estimation and validation of time series models. [TSAnalysis.jl docs](https://juliapackages.com/p/tsanalysis)
+
+3. [StateSpaceModels.jl](https://github.com/LAMPSPUC/StateSpaceModels.jl) It is designed for time-series analysis using state-space models. It includes functionalities like the Kalman filter, maximum likelihood estimation, and various predefined models such as SARIMA, exponential smoothing, and unobserved components models. [StateSpaceModels.jl docs](https://juliapackages.com/p/statespacemodels)
+
+4. [Temporal.jl](https://github.com/dysonance/Temporal.jl) It provides a flexible time series class, `TS`, for handling and analyzing time series data in Julia. It aims to offer rapid prototyping capabilities similar to R's xts and Python's pandas, while leveraging Julia's performance benefits. [Temporal.jl docs](https://github.com/dysonance/Temporal.jl)
+
+5. [OnlineStats.jl](https://github.com/joshday/OnlineStats.jl) It offers algorithms for real-time statistics and machine learning, particularly useful for time series data. It includes techniques for computing moving averages, control charts, and echo state networks, making it ideal for streaming data analysis. [OnlineStats.jl docs](https://joshday.github.io/OnlineStats.jl/stable/)
+
+6. [DynamicalSystems.jl](https://github.com/JuliaDynamics/DynamicalSystems.jl) It is a comprehensive library for analyzing nonlinear dynamical systems and chaos. It provides tools for timeseries analysis, including Lyapunov exponents, attractor reconstruction, and other nonlinear dynamics techniques. [DynamicalSystems.jl docs](https://juliadynamics.github.io/DynamicalSystems.jl/latest/)
+
+7. [ARCHModels.jl](https://github.com/s-broda/ARCHModels.jl) It implements ARMA-GARCH models for time series analysis in Julia. It supports estimation, forecasting, and diagnostics of volatility models, providing a robust framework for financial time series analysis. [ARCHModels.jl docs](https://s-broda.github.io/ARCHModels.jl/stable/)
+
+8. [MessyTimeSeries.jl](https://github.com/fipelle/MessyTimeSeries.jl) It is geared towards handling time series data that may have missing or messy components. It provides tools for estimation and modeling, helping users clean and analyze imperfect data sets. [MessyTimeSeries.jl docs](https://github.com/fipelle/MessyTimeSeries.jl)
+
+9. [ChaosTools.jl](https://github.com/JuliaDynamics/ChaosTools.jl)
+   Part of the DynamicalSystems.jl ecosystem, ChaosTools.jl focuses on the analysis of chaos in time series data. It offers functionalities for chaos detection and quantification, including phase space reconstruction and bifurcation analysis. [ChaosTools.jl docs](https://juliadynamics.github.io/DynamicalSystems.jl/dev/chaos/)
+
+10. [Econometrics.jl](https://github.com/Nosferican/Econometrics.jl) It provides econometric models and methods for analyzing time series data. It includes implementations for autoregressive models, vector autoregressions, and cointegration techniques, making it suitable for economic and financial data analysis. [Econometrics.jl docs](https://nosferican.github.io/Econometrics.jl/stable/)
 
 ## Contributing
 
