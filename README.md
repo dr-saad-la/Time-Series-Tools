@@ -123,6 +123,38 @@ pip install pandas statsmodels prophet tsfresh sktime darts pyflux gluonts pycar
 
 15. [imputeTS](https://cran.r-project.org/web/packages/imputeTS/index.html) The `imputeTS` package provides tools for time series missing value imputation. It includes various methods, such as mean imputation, Kalman smoothing, and seasonally decomposed missing value imputation, making it ideal for preprocessing incomplete datasets. [imputeTS docs](https://cran.r-project.org/web/packages/imputeTS/imputeTS.pdf)
 
+
+## Java Libraries for Time Series Analysis
+
+1. [JTimeSeries](http://jtimeseries.sourceforge.net/) JTimeSeries is a library for storing and manipulating time series data. It provides support for data aggregation, transformation, and querying. The library also offers utilities for working with real-time data and historical analysis. [JTimeSeries docs](http://jtimeseries.sourceforge.net/docs/index.html)
+
+2. [JFreeChart](https://github.com/jfree/jfreechart) rJFreeChart is a comprehensive charting library that supports a wide range of chart types, including time series plots. It is widely used for visualizing time series data in Java applications and offers flexible options for customization. [JFreeChart docs](https://www.jfree.org/jfreechart/api/javadoc/)
+
+3. [Apache Commons Math](https://commons.apache.org/proper/commons-math/) Apache Commons Math is a library of mathematical and statistical components, including utilities for time series analysis. It provides implementations of autoregressive models, moving averages, and other time series techniques. [Commons Math docs](https://commons.apache.org/proper/commons-math/javadocs/api-3.6.1/)
+
+4. [Time4J](https://github.com/MenoData/Time4J) Time4J is an advanced date and time library for Java that supports time series data manipulation. It offers a wide range of features for handling complex time calculations, calendar systems, and temporal queries. [Time4J docs](https://time4j.net/)
+
+5. [Javaml](http://java-ml.sourceforge.net/) Javaml is a machine learning library that includes tools for time series classification and clustering. It supports various algorithms, including dynamic time warping and K-means clustering, for analyzing time series data. [Javaml docs](http://java-ml.sourceforge.net/api/)
+
+6. [Deeplearning4j (DL4J)](https://deeplearning4j.konduit.ai/) Deeplearning4j is a deep learning library for Java that offers tools for time series forecasting and anomaly detection. It supports recurrent neural networks (RNNs) and long short-term memory (LSTM) networks, making it suitable for complex time series tasks. [Deeplearning4j docs](https://deeplearning4j.konduit.ai/)
+
+7. [Tetrad](https://github.com/cmu-phil/tetrad) Tetrad is a suite of tools for causal discovery and statistical modeling, including time series analysis. It provides methods for structure learning, causal inference, and graphical modeling of time series data. [Tetrad docs](https://cmu-phil.github.io/tetrad/)
+
+8. [JMARS](https://jmars.mars.asu.edu/) JMARS (Java Mission-planning and Analysis for Remote Sensing) is a software suite developed by Arizona State University for visualizing and analyzing planetary data. It includes tools for time series analysis, particularly for planetary and astronomical datasets. [JMARS docs](https://jmars.mars.asu.edu/manual/)
+
+9. [JOptics](https://sourceforge.net/projects/joptics/) JOptics is a library for clustering and analysis of spatial and temporal data. It implements the OPTICS (Ordering Points to Identify the Clustering Structure) algorithm, which can be used for time series clustering and outlier detection. [JOptics docs](https://sourceforge.net/projects/joptics/files/Documentation/)
+
+10. [TSA (Time Series Analysis)](https://code.google.com/archive/p/timeseriesanalysis/) TSA is a lightweight library for time series analysis in Java. It provides basic functionalities such as time series decomposition, smoothing, and forecasting using simple models. While the project is archived, it offers useful tools for basic analysis. [TSA docs](https://code.google.com/archive/p/timeseriesanalysis/)
+
+11. [M4 Forecasting Competition](https://github.com/M4Competition/M4-methods) The M4 Forecasting Competition repository includes Java implementations of various forecasting methods used in the competition. It provides access to state-of-the-art forecasting models and benchmarking tools for time series analysis. [M4 Forecasting Competition docs](https://github.com/M4Competition/M4-methods)
+
+12. [OpenForecast](https://sourceforge.net/projects/openforecast/) OpenForecast is a Java library for forecasting and modeling time series data. It supports various forecasting methods, including moving averages, exponential smoothing, and linear regression. [OpenForecast docs](https://sourceforge.net/projects/openforecast/)
+
+13. [JavaFMI](https://github.com/CATIA-Systems/FMI4j) JavaFMI is a Java library for interfacing with Functional Mock-up Units (FMUs), which can include time series data. It allows integration of time series simulations with other model-based systems. [JavaFMI docs](https://github.com/CATIA-Systems/FMI4j)
+
+14. [JTimePiece](https://github.com/jonsog/jtimepiece) JTimePiece is a Java library for advanced time handling and time series calculations. It provides utilities for time arithmetic, calendrical calculations, and supports complex time zone manipulations. [JTimePiece docs](https://github.com/jonsog/jtimepiece)
+
+15. [JSTAT](https://github.com/d3xsystems/jstat) JSTAT is a statistical library for Java that includes time series analysis tools. It offers methods for statistical testing, time series decomposition, and data visualization, supporting a range of statistical models. [JSTAT docs](https://github.com/d3xsystems/jstat)
 ## Contributing
 
 Contributions are welcome! If you have any additional libraries to add, or if you find a bug or have an idea for improvement, please feel free to open an issue or submit a pull request. Follow the [contribution guidelines](CONTRIBUTING.md) for more details.
