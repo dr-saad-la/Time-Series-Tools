@@ -155,6 +155,61 @@ pip install pandas statsmodels prophet tsfresh sktime darts pyflux gluonts pycar
 14. [JTimePiece](https://github.com/jonsog/jtimepiece) JTimePiece is a Java library for advanced time handling and time series calculations. It provides utilities for time arithmetic, calendrical calculations, and supports complex time zone manipulations. [JTimePiece docs](https://github.com/jonsog/jtimepiece)
 
 15. [JSTAT](https://github.com/d3xsystems/jstat) JSTAT is a statistical library for Java that includes time series analysis tools. It offers methods for statistical testing, time series decomposition, and data visualization, supporting a range of statistical models. [JSTAT docs](https://github.com/d3xsystems/jstat)
+
+## Rust Libraries for Time Series Analysis
+
+1. **[polars](https://github.com/pola-rs/polars)**
+   - Polars is a fast DataFrame library implemented in Rust. It provides excellent support for time series data manipulation and analysis, offering powerful APIs for filtering, aggregation, and transformation. Polars can be used in Rust and is also available for Python through bindings.
+   - [Polars docs](https://pola-rs.github.io/polars/)
+
+2. **[chrono](https://github.com/chronotope/chrono)**
+   - Chrono is a comprehensive date and time library for Rust. While not exclusively for time series analysis, it offers robust tools for handling and manipulating dates and times, making it essential for any time series project in Rust.
+   - [Chrono docs](https://docs.rs/chrono/)
+
+3. **[plotters](https://github.com/plotters-rs/plotters)**
+   - Plotters is a Rust library for data visualization that supports various types of charts, including time series plots. It allows for creating interactive and high-quality visualizations, making it suitable for plotting time series data.
+   - [Plotters docs](https://docs.rs/plotters/)
+
+4. **[kdtree](https://github.com/mrhooray/kdtree-rs)**
+   - Kdtree is a Rust implementation of a K-dimensional tree for nearest neighbor searching, which can be useful in time series analysis for finding similar patterns or clustering data points based on temporal features.
+   - [Kdtree docs](https://docs.rs/kdtree)
+
+5. **[statrs](https://github.com/statrs-dev/statrs)**
+   - Statrs is a Rust library for statistical computation. It provides a wide range of statistical functions and distributions, including tools for time series analysis such as moving averages and autoregressive models.
+   - [Statrs docs](https://docs.rs/statrs/)
+
+6. **[rulinalg](https://github.com/AtheMathmo/rulinalg)**
+   - Rulinalg is a linear algebra library for Rust that offers matrix and vector operations. It can be useful for implementing custom time series models and algorithms, leveraging linear algebra techniques for analysis and forecasting.
+   - [Rulinalg GitHub](https://github.com/AtheMathmo/rulinalg)
+
+7. **[ndarray](https://github.com/rust-ndarray/ndarray)**
+   - Ndarray is a Rust library for working with n-dimensional arrays, similar to NumPy in Python. It supports various operations on multi-dimensional arrays, making it ideal for time series data manipulation and analysis.
+   - [Ndarray docs](https://docs.rs/ndarray/)
+
+8. **[hdf5](https://github.com/aldanor/hdf5-rs)**
+   - Hdf5 is a Rust interface for the HDF5 data format, which is widely used for storing large datasets, including time series data. It provides efficient I/O operations and supports hierarchical data organization.
+   - [Hdf5 docs](https://docs.rs/hdf5/)
+
+9. **[csv](https://github.com/BurntSushi/rust-csv)**
+   - Csv is a Rust library for reading and writing CSV files, a common format for time series data. It offers high performance and ease of use, making it a staple for handling time series datasets.
+   - [Csv docs](https://docs.rs/csv/)
+
+10. **[rustfft](https://github.com/ejmahler/RustFFT)**
+    - Rustfft is a high-performance FFT library for Rust, useful for spectral analysis and frequency-domain transformations of time series data. It supports various FFT algorithms and provides a user-friendly API for time series analysis.
+    - [Rustfft docs](https://docs.rs/rustfft/)
+
+11. **[pyo3](https://github.com/PyO3/pyo3)**
+    - Pyo3 is a Rust library that enables interoperability with Python, allowing you to use Python libraries like NumPy and Pandas for time series analysis in Rust projects. This is particularly useful for leveraging Python's rich ecosystem of time series tools.
+    - [Pyo3 docs](https://pyo3.rs/)
+
+12. **[tch-rs](https://github.com/LaurentMazare/tch-rs)**
+    - Tch-rs is a library for using PyTorch in Rust. It enables deep learning and machine learning applications, including time series forecasting with neural networks.
+    - [Tch-rs docs](https://docs.rs/tch/)
+
+13. **[linfa](https://github.com/rust-ml/linfa)**
+    - Linfa is a comprehensive machine learning framework for Rust that supports various machine learning algorithms, including those suitable for time series analysis such as clustering and regression.
+    - [Linfa docs](https://docs.rs/linfa/)
+     
 ## Contributing
 
 Contributions are welcome! If you have any additional libraries to add, or if you find a bug or have an idea for improvement, please feel free to open an issue or submit a pull request. Follow the [contribution guidelines](CONTRIBUTING.md) for more details.
