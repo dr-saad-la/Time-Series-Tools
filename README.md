@@ -90,6 +90,39 @@ pip install pandas statsmodels prophet tsfresh sktime darts pyflux gluonts pycar
 
 10. [Econometrics.jl](https://github.com/Nosferican/Econometrics.jl) It provides econometric models and methods for analyzing time series data. It includes implementations for autoregressive models, vector autoregressions, and cointegration techniques, making it suitable for economic and financial data analysis. [Econometrics.jl docs](https://nosferican.github.io/Econometrics.jl/stable/)
 
+
+## R Packages for Time Series Analysis
+
+1. [forecast](https://cran.r-project.org/web/packages/forecast/index.html) This package is one of the most widely used packages for time series forecasting in R. It includes functions for automatic ARIMA modeling, exponential smoothing (ETS), and many other forecasting techniques. The package also offers tools for visualizing and evaluating forecast accuracy. [forecast docs](https://otexts.com/fpp3/)
+
+2. [xts](https://cran.r-project.org/web/packages/xts/index.html) The `xts` package provides an extensible time series class that enables fast and flexible manipulation of time series data. It is built on top of the `zoo` package and integrates well with financial data and other time-indexed data structures. [xts docs](https://cran.r-project.org/web/packages/xts/xts.pdf)
+
+3. [zoo](https://cran.r-project.org/web/packages/zoo/index.html) The `zoo` package provides an S3 class for indexed totally ordered observations, with a focus on irregular time series data. It offers efficient tools for data manipulation, analysis, and visualization, supporting arbitrary R data types. [zoo docs](https://cran.r-project.org/web/packages/zoo/zoo.pdf)
+
+4. [tsibble](https://cran.r-project.org/web/packages/tsibble/index.html) The `tsibble` package provides a tidy data framework specifically designed for time series data in R. It simplifies time series manipulation and modeling, and it integrates seamlessly with the tidyverse suite of packages. [tsibble docs](https://tsibble.tidyverts.org/index.html)
+
+5. [fable](https://cran.r-project.org/web/packages/fable/index.html) The `fable` package is a modern framework for time series forecasting in R, built on top of `tsibble`. It provides a wide array of forecasting models, including ARIMA, ETS, and prophet, and offers tools for model evaluation and comparison. [fable docs](https://fable.tidyverts.org/)
+
+6. [TSA](https://cran.r-project.org/web/packages/TSA/index.html) The `TSA` package provides a variety of tools for time series analysis, including methods for ARIMA, spectral analysis, and seasonal decomposition. It is widely used for educational purposes and practical time series applications. [TSA docs](https://cran.r-project.org/web/packages/TSA/TSA.pdf)
+
+7. [tseries](https://cran.r-project.org/web/packages/tseries/index.html) The `tseries` package includes a collection of tools for time series analysis and computational finance. It provides functions for unit root tests, ARIMA modeling, and GARCH models, among others. [tseries docs](https://cran.r-project.org/web/packages/tseries/tseries.pdf)
+
+8. [prophet](https://cran.r-project.org/web/packages/prophet/index.html) Developed by Facebook, `prophet` is a forecasting tool designed for time series data with daily observations. It handles missing data and holiday effects well, and it is particularly useful for business forecasting. [prophet docs](https://facebook.github.io/prophet/docs/quick_start.html)
+
+9. [seasonal](https://cran.r-project.org/web/packages/seasonal/index.html) The `seasonal` package provides interfaces to the X-13ARIMA-SEATS seasonal adjustment method developed by the US Census Bureau. It is used for seasonal decomposition of time series data and includes many utilities for customization and visualization. [seasonal docs](https://cran.r-project.org/web/packages/seasonal/vignettes/seas.html)
+
+10. [quantmod](https://cran.r-project.org/web/packages/quantmod/index.html) The `quantmod` package is designed for quantitative financial modeling and trading in R. It provides tools for modeling, technical analysis, and charting, and it integrates well with time series data for financial applications. [quantmod docs](https://cran.r-project.org/web/packages/quantmod/quantmod.pdf)
+
+11. [timeSeries](https://cran.r-project.org/web/packages/timeSeries/index.html)The `timeSeries` package offers S4 classes for financial time series data, providing a comprehensive framework for data manipulation, analysis, and visualization in R. It supports various financial data formats and offers many utilities for handling time series. [timeSeries docs](https://cran.r-project.org/web/packages/timeSeries/timeSeries.pdf)
+
+12. [tsDyn](https://cran.r-project.org/web/packages/tsDyn/index.html) The `tsDyn` package provides tools for nonlinear time series models, including threshold autoregressive models and neural network models. It is particularly useful for modeling complex dynamics in time series data. [tsDyn docs](https://cran.r-project.org/web/packages/tsDyn/tsDyn.pdf)
+
+13. [KFAS](https://cran.r-project.org/web/packages/KFAS/index.html) The `KFAS` package provides tools for state-space modeling and time series analysis using the Kalman filter. It supports various types of models, including dynamic regression and ARIMA models, and provides utilities for forecasting and model diagnostics. [KFAS docs](https://cran.r-project.org/web/packages/KFAS/KFAS.pdf)
+
+14. [vars](https://cran.r-project.org/web/packages/vars/index.html) The `vars` package implements vector autoregressive models, vector error correction models, and structural vector autoregressive models. It is widely used for multivariate time series analysis in R. [vars docs](https://cran.r-project.org/web/packages/vars/vars.pdf)
+
+15. [imputeTS](https://cran.r-project.org/web/packages/imputeTS/index.html) The `imputeTS` package provides tools for time series missing value imputation. It includes various methods, such as mean imputation, Kalman smoothing, and seasonally decomposed missing value imputation, making it ideal for preprocessing incomplete datasets. [imputeTS docs](https://cran.r-project.org/web/packages/imputeTS/imputeTS.pdf)
+
 ## Contributing
 
 Contributions are welcome! If you have any additional libraries to add, or if you find a bug or have an idea for improvement, please feel free to open an issue or submit a pull request. Follow the [contribution guidelines](CONTRIBUTING.md) for more details.
