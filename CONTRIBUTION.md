@@ -1,4 +1,4 @@
-# Contributing to TimeSeriesTools
+# Contributing to Time-Series-Tools
 
 Thank you for considering contributing to the **TimeSeriesTools** repository! We welcome contributions from the community to help improve the project. This guide will help you understand how to contribute effectively.
 
