@@ -66,6 +66,18 @@ pip install pandas statsmodels prophet tsfresh sktime darts pyflux gluonts pycar
 
 13. [tsfeatures](https://github.com/Nixtla/tsfeatures): Python implementation of the R package for time series feature extraction. It calculates a wide range of features from time series data, including autocorrelations, spectral entropy, seasonality, and trend measures. Users can also define their custom feature extraction functions. [tsfeatures docs](https://pkg.robjhyndman.com/tsfeatures/)
 
+14. **[Keras](https://keras.io/)** Keras is a deep learning library that includes support for recurrent neural networks (RNNs), which are often used in time series analysis. It is user-friendly and integrates well with TensorFlow to build complex models for time series prediction. [Keras docs](https://keras.io/)
+
+15. **[Pyomo](http://www.pyomo.org/)** Pyomo is an open-source optimization library that can be used to optimize time series data and solve optimization problems related to time series analysis. It offers a flexible framework for defining optimization models and supports various solvers. [Pyomo docs](http://www.pyomo.org/documentation)
+
+16. **[Forecast](https://github.com/yzhao062/pyod)** Forecast is a Python library for time series forecasting that includes support for various algorithms such as ARIMA, SARIMA, and exponential smoothing. It provides a simple interface for model fitting and prediction. [Forecast GitHub](https://github.com/yzhao062/pyod)
+
+17. **[pykalman](https://pykalman.github.io/)** Pykalman is a Python implementation of the Kalman filter, which is often used in time series analysis for state estimation and forecasting. It supports filtering and smoothing for linear dynamical systems. [pykalman docs](https://pykalman.github.io/)
+
+18. **[GaussianMixture](https://scikit-learn.org/stable/modules/mixture.html)** GaussianMixture is part of the scikit-learn library, providing a Gaussian mixture model (GMM) for modeling and analyzing time series data. It can be used for clustering and density estimation in time series analysis. [GaussianMixture docs](https://scikit-learn.org/stable/modules/mixture.html)
+
+19. **[tslearn](https://tslearn.readthedocs.io/)** Tslearn is a Python library for time series learning, which includes support for various algorithms such as dynamic time warping (DTW), k-means clustering for time series, and more. It provides tools for preprocessing, modeling, and evaluating time series data. [tslearn docs](https://tslearn.readthedocs.io/)
+
 
 ## Julia Packages for Time Series Analysis
 
