@@ -151,8 +151,6 @@ pip install pandas statsmodels prophet tsfresh sktime darts pyflux gluonts pycar
 11. [M4 Forecasting Competition](https://github.com/M4Competition/M4-methods) The M4 Forecasting Competition repository includes Java implementations of various forecasting methods used in the competition. It provides access to state-of-the-art forecasting models and benchmarking tools for time series analysis. [M4 Forecasting Competition docs](https://github.com/M4Competition/M4-methods)
 
 
-
-
 ## Rust Libraries for Time Series Analysis
 
 1. **[polars](https://github.com/pola-rs/polars)** Polars is a fast DataFrame library implemented in Rust. It provides excellent support for time series data manipulation and analysis, offering powerful APIs for filtering, aggregation, and transformation. Polars can be used in Rust and is also available for Python through bindings. [Polars docs](https://pola-rs.github.io/polars/)
@@ -179,6 +177,22 @@ pip install pandas statsmodels prophet tsfresh sktime darts pyflux gluonts pycar
 12. **[tch-rs](https://github.com/LaurentMazare/tch-rs)** Tch-rs is a library for using PyTorch in Rust. It enables deep learning and machine learning applications, including time series forecasting with neural networks. [Tch-rs docs](https://docs.rs/tch/)
 
 13. **[linfa](https://github.com/rust-ml/linfa)** Linfa is a comprehensive machine learning framework for Rust that supports various machine learning algorithms, including those suitable for time series analysis such as clustering and regression. [Linfa docs](https://docs.rs/linfa/)
+
+## C++ Libraries for Time Series Analysis
+
+1. **[Dlib](http://dlib.net/)** Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++. It includes tools for time series analysis, such as linear models and support vector regression. [Dlib GitHub](https://github.com/davisking/dlib)
+
+2. **[KFR](https://www.kfrlib.com/)** KFR is a fast C++ DSP framework designed for audio and time series data processing. It provides tools for fast Fourier transform (FFT), convolution, filtering, and more, making it suitable for spectral analysis of time series data. [KFR GitHub](https://github.com/kfrlib/kfr)
+
+3. **[Eigen](https://eigen.tuxfamily.org/)** Eigen is a high-performance C++ library for linear algebra, matrix, and vector operations. It can be used in time series analysis for implementing algorithms that require matrix computations. [Eigen GitHub](https://gitlab.com/libeigen/eigen)
+
+4. **[Armadillo](http://arma.sourceforge.net/)** Armadillo is a high-quality linear algebra library for C++ with a syntax similar to MATLAB. It is used for time series analysis requiring linear algebra operations, offering efficient solutions for large datasets. [Armadillo GitHub](https://gitlab.com/conradsnicta/armadillo-code)
+
+5. **[Bayes++](https://sourceforge.net/projects/bayesplusplus/)** Bayes++ is a C++ library for Bayesian filtering and estimation. It is particularly useful for time series data where Bayesian methods are needed for prediction and inference. [Bayes++ docs](https://sourceforge.net/projects/bayesplusplus/)
+
+6. **[PyTorch C++ API (LibTorch)](https://pytorch.org/cppdocs/)** LibTorch is the C++ distribution of PyTorch, offering tools for building machine learning models, including time series analysis with neural networks like LSTM and GRU. [LibTorch GitHub](https://github.com/pytorch/pytorch/tree/master/cpp)
+
+7. **[RtAudio](http://www.music.mcgill.ca/~gary/rtaudio/)** RtAudio is a set of C++ classes that provide a common API for real-time audio input/output across Linux, Macintosh OS X, and Windows operating systems. It is suitable for processing time series data in real-time audio applications. [RtAudio GitHub](https://github.com/thestk/rtaudio)
 
 ## Contributing
 
